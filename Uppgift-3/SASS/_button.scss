@@ -1,0 +1,14 @@
+.btn {
+    margin: 2rem;
+    background-color: $primaryBtn;
+    border-color: $primaryBtn;
+    
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: $hoverBtn;
+    border-color: $hoverBtn;
+}
+.btn-primary:active {
+    transform: translateY(3px);
+}

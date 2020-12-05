@@ -1,0 +1,191 @@
+body {
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+    background: #FBFBFB;
+  }
+  
+  .color-mellowYellow{
+    color: #ffbb00;
+  }
+  .bg-color-lightPink{
+    background-color: #FDF3D7;
+  }
+  
+  .font-roboto{
+    font-family:'Roboto', sans-serif !important;
+    font-size: 16px !important;
+  }
+  
+  .logo-img{
+    width: 120px;
+    height: 57px;
+  }
+  
+  
+  #header .nav-link.active{
+    color: #ffbb00 !important;
+  }
+  
+  #header.active:after{
+      display: block; 
+      width: 20%; 
+      padding-top: 2px; 
+      border-bottom: 2px solid #ffbb00 !important;
+  }
+  
+  
+  .text-wrap {
+    margin-bottom: 2rem;
+  }
+  .text-color{
+    color: #8A8A8A;
+    font-weight: normal;
+  }
+  
+  
+  /* knappar */
+  .btn {
+    padding: 0.7em 2em !important;
+    border-radius: 12px !important;
+  }
+  .btn:active {
+    transform: translateY(4px);
+}
+  .button-1 {
+    background-color: #FDF3D7;
+    color: #ffbb00;
+    margin-bottom: 2rem;
+  }
+  .button-2 {
+    width: 232px;
+    height: 80px;
+  }
+  .navbar-toggler {
+    border-color: #ffbb00 !important;
+  }
+  .btn-outline-none {
+    margin-left: 1rem;
+  }
+  .contact-form-btn-submit{
+    background-color: #3096FE;
+    width: 200px !important; 
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+  /* knappar */
+    
+    
+  .header-bg{
+    background: url('images/background.png') no-repeat  ;
+    width: 100%;
+    background-position:50% 100%;
+    
+  }
+  
+  #header .header-nav-link{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .about-us-bg{
+    background: url('images/cirklar.png') no-repeat center;
+    width: 100%;
+    height: 100%;
+    margin: 0px 5px 0px 5px;
+  }
+    
+  #features{
+    background: #F5F5F5;
+  }
+    
+  .bg-Statistic{
+    background: url('images/worldmap.png') no-repeat center ;
+  }
+    
+  .Statistic-text{
+    color: #1487FD;
+    font-size: x-large;
+    font-family: Roboto;
+  }
+  
+  #download{
+    position: relative;
+    background: url('images/download-background.png') no-repeat center ;
+  }
+  
+  .three-phone{
+    position: absolute;
+    top: -160px;
+    margin-top: 80px;
+  }
+  
+  #contact-us {
+      height: 1030px !important;
+  }
+  .fix {
+    margin-top: 2rem;
+  }
+  .input-field-bg{
+    background-color:  #F2F2F2 !important;
+    margin-top: 1rem;
+  }
+  
+  .input-field-message{
+    width: 100%;
+    height: 150px;
+  }
+    
+  #footer{
+    background: url('images/footer.png') no-repeat center ;
+    width: 100%;
+    height: 150%;
+  }
+  
+  #footer .footer-nav-link{
+    font-size: 18px;
+    font-weight: 600;
+  }
+     
+  @media screen and (min-width: 992px) {
+    #header .active:after{
+        display: block; 
+        width: 60%; 
+        padding-top: 2px; 
+        border-bottom: 2px solid #ffbb00 !important;
+    }
+    .watch {
+      margin-left: none;
+    }
+    
+  }
+  
+  @media screen and (min-width: 600px){
+    .watch {
+      margin-left: -32px;
+      
+    }
+    .btn-outline-none {
+      margin: 0
+    }
+  }
+
+  @media screen and (max-width: 412px) {
+    #header .active:after {
+      display: block; 
+        width: 60%; 
+    }
+
+    .three-phone{
+      position: absolute;
+      top: -140px;
+      margin-top: 90px;
+      margin-left: -62px;
+    }
+    .watch {
+      margin-left: -30px;
+    }
+    .btn-outline-none {
+      margin: 0
+    }
+    
+  }

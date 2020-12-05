@@ -1,0 +1,34 @@
+$textColor: rgb(109, 109, 109) !important;
+$primaryBtn:  #197490ab !important;
+$hoverBtn: #0069d9 !important;
+$backgroundColor: #366e67ab !important;
+
+@import "./button";
+
+
+html, body {
+    font-family: monospace ;
+    color: $textColor;
+    .bg-info {
+        background-color: $backgroundColor;
+    }
+    .rubrik {
+        margin-top: 1rem;
+        
+    }
+    .info {
+        margin-top: 1rem;
+        font-size: 22px;
+    }
+    .GDPR {
+        margin: 1rem;
+        font-size: 16px;
+    }
+    .form-check {
+        font-size: 15px;
+    }
+    .Integritetspolicy{
+        margin: 2rem;
+        font-size: 16px;
+    }
+}
